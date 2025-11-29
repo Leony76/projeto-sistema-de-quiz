@@ -1,0 +1,485 @@
+/******************/
+/* Media Queries */
+/******************/
+
+@media (max-width: 480px) {
+  /* QuizGameplay.vue */
+
+  .mq-quizgameplay-questions-container {
+    width: 90vw;
+  }
+
+  .mq-quizgameplay-finalization {
+    width: 90vw;
+  }
+
+  /* Quiz.vue */
+
+  .mq-quiz-maincontainer {
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .mq-quiz-maincontainer p {
+    font-size: 18px;
+    width: 90%;
+  }
+
+  
+  .mq-quiz-maincontainer a {
+    margin-bottom: 50px;
+  }
+  
+  .mq-quiz-maincontainer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    margin-top: 10px;
+  }
+
+  .mq-quiz-maincontainer .goodluck {
+    font-size: 24px;
+  }
+
+  .mq-quiz-maincontainer li {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .mq-quiz-li {
+    margin: 0px 20px;
+    padding-top: 5px;
+  }
+
+  /* TopScore.vue */
+
+  .th-table th {
+    font-size: 13px;
+    padding: 3px;
+  }
+
+  .td-table td {
+    font-size: 11px;
+    padding: 3px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 640px) {
+  /* Dashboard.vue */
+
+  .mq-dashboard-main-3cards-container {
+    flex-direction: column;
+  }
+
+  .mq-dashboard-child-container1 li,
+  .mq-dashboard-child-container2 li,
+  .mq-dashboard-child-container3 h2 {
+    font-size: 16px;
+  }
+
+  .mq-dashboard-child-container2 .concept {
+    font-size: 4em;
+  }
+
+  .mq-dashboard-child-container2-overflow,
+  .mq-dashboard-child-container3-overflow{
+    height: 350px;
+  }
+
+  .mq-dashboard-badges-cards,
+  .mq-dashboard-history-cards {
+    font-size: 12px;
+  }
+
+  .mq-dashboard-history-cards h4 {
+    font-size: 16px;
+  }
+
+  .mq-dashboard-badges-cards h1 {
+    font-size: 20px;
+  }
+
+  .mq-quizgameplay-questions-container {
+    width: 90vw;
+  }
+
+  .mq-quizgameplay-finalization {
+    width: 90vw;
+  }
+
+  /* Quiz.vue */
+
+  .mq-quiz-maincontainer {
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .mq-quiz-maincontainer p {
+    font-size: 18px;
+    width: 90%;
+  }
+
+  
+  .mq-quiz-maincontainer a {
+    margin-bottom: 50px;
+  }
+  
+  .mq-quiz-maincontainer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 80%;
+    margin-top: 10px;
+  }
+
+  .mq-quiz-maincontainer .goodluck {
+    font-size: 24px;
+  }
+
+  .mq-quiz-maincontainer li {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .mq-quiz-li {
+    margin: 0px 20px;
+    padding-top: 10px;
+  }
+
+  /* TopScore.vue */
+
+  .th-table th {
+    font-size: 15px;
+    padding: 3px;
+  }
+
+  .td-table td {
+    font-size: 13px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 641px) and (max-width: 1024px) {
+  /* Dashboard.vue */
+  .mq-dashboard-child-container1 li {
+    font-size: 20px;
+    line-height: 2;
+  }
+
+  .mq-dashboard-child-container1,
+  .mq-dashboard-child-container2,
+  .mq-dashboard-child-container3 {
+    height: auto;
+    font-size: 12px;
+  }
+
+  .mq-dashboard-child-container2 .hasdata,
+  .mq-dashboard-child-container3 .hasdata{
+    height: 450px;
+  }
+
+  .mq-dashboard-main-3cards-container {
+    flex-direction: column;
+  }
+
+  .mq-dashboard-child-container2-overflow,
+  .mq-dashboard-child-container3-overflow{
+    height: 350px;
+  }
+
+  .mq-dashboard-badges-cards,
+  .mq-dashboard-history-cards {
+    font-size: 20px;
+  }
+
+  .mq-dashboard-history-cards h4 {
+    font-size: 20px;
+  }
+
+  .mq-dashboard-badges-cards h1 {
+    font-size: 30px;
+  }
+
+  /* Quiz.vue */
+
+  .mq-quiz-maincontainer {
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .mq-quiz-maincontainer p {
+    font-size: 24px;
+    width: 90%;
+  }
+
+  
+  .mq-quiz-maincontainer a {
+    margin-bottom: 50px;
+  }
+  
+  .mq-quiz-maincontainer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 80%;
+    margin-top: 10px;
+  }
+
+  .mq-quiz-maincontainer .goodluck {
+    font-size: 24px;
+  }
+
+  .mq-quiz-maincontainer li {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .mq-quiz-li {
+    margin: 0px 20px;
+    padding-top: 10px;
+  }
+
+  /*TopScore.vue*/
+
+  .mq-topscore-table th{
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .mq-topscore-nodata h2 {
+    font-size: 16px;
+    width: 80%;
+  }
+
+  /* QuizGameplay.vue */
+
+  .mq-quizgameplay-questions-container {
+    width: 90vw;
+  }
+
+  .mq-quizgameplay-finalization {
+    width: 90vw;
+  }
+
+  .mq-quizgameplay-questions-container {
+    width: 550px;
+  }
+
+  .mq-quizgameplay-finalization {
+    width: 550px;
+  }
+
+  /* TopScore.vue */
+
+  .th-table th {
+    font-size: 15px;
+  }
+
+  .td-table td {
+    font-size: 13px;
+  }
+}
+
+/* Notebook e desktop */
+@media (min-width: 1025px) and (max-width: 1218px) {
+  /* Dashboard.vue */
+  .mq-dashboard-child-container1 li {
+    font-size: 20px;
+    line-height: 2;
+  }
+
+  .mq-dashboard-child-container1,
+  .mq-dashboard-child-container2,
+  .mq-dashboard-child-container3 {
+    height: auto;
+    font-size: 12px;
+  }
+
+  .mq-dashboard-child-container2 .hasdata,
+  .mq-dashboard-child-container3 .hasdata{
+    max-height: 350px;
+  }
+
+
+  .mq-dashboard-main-3cards-container {
+    flex-direction: column;
+  }
+
+  .mq-dashboard-child-container2-overflow,
+  .mq-dashboard-child-container3-overflow{
+    height: 350px;
+  }
+
+  .mq-dashboard-badges-cards,
+  .mq-dashboard-history-cards {
+    font-size: 20px;
+  }
+
+  .mq-dashboard-history-cards h4 {
+    font-size: 20px;
+  }
+
+  .mq-dashboard-badges-cards h1 {
+    font-size: 30px;
+  }
+
+  /* QuizGamplay.vue */
+  .mq-quizgameplay-questions-container {
+    width: 550px;
+  }
+
+  .mq-quizgameplay-finalization {
+    width: 550px;
+  }
+
+  /* Quiz.vue */
+
+  .mq-quiz-maincontainer {
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .mq-quiz-maincontainer p {
+    font-size: 22px;
+    width: 100%;
+  }
+
+  
+  .mq-quiz-maincontainer a {
+    margin-bottom: 50px;
+  }
+  
+  .mq-quiz-maincontainer ul {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-top: 10px;
+    margin: 0px 50px;
+  }
+
+  .mq-quiz-maincontainer .goodluck {
+    font-size: 24px;
+  }
+
+  .mq-quiz-maincontainer li {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .mq-quiz-li {
+    margin: 0px 20px;
+    padding-top: 10px;
+  }
+
+}
+
+@media (min-width: 1218px) and (max-width: 1536px) {
+  /* Dashboard.vue */
+  .mq-dashboard-child-container1 li {
+    font-size: 15px;
+    line-height: 2;
+  }
+
+  .mq-dashboard-history-cards h4 {
+    font-size: 15px;
+  }
+
+  .mq-dashboard-badges-cards h1 {
+    font-size: 16px;
+  }
+
+  .mq-dashboard-badges-cards,
+  .mq-dashboard-history-cards {
+    font-size: 14px;
+  }
+
+  /* Quiz.vue */
+  .mq-quiz-maincontainer p {
+    font-size: 22px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .mq-quiz-maincontainer li {
+    line-height: 2;
+  }
+
+  /* QuizGameplay.vue */
+  .mq-quizgameplay-questions-container {
+    width: 550px;
+  }
+
+  .mq-quizgameplay-finalization {
+    width: 550px;
+  }
+
+}
+
+/* TVs e telas grandes */
+@media (min-width: 1537px) {
+  /* Dashboard.vue */
+  .mq-dashboard-history-cards .concept {
+    font-size: 4em;
+    margin-top: 12px;
+  }
+
+  /* QuizGamplay.vue */
+  .mq-quizgameplay-questions-container {
+    width: 550px;
+  }
+
+  .mq-quizgameplay-finalization {
+    width: 550px;
+  }
+
+  /* Quiz.vue */
+
+  .mq-quiz-maincontainer {
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .mq-quiz-maincontainer p {
+    font-size: 22px;
+    width: 100%;
+  }
+
+  
+  .mq-quiz-maincontainer a {
+    margin-bottom: 50px;
+  }
+  
+  .mq-quiz-maincontainer ul {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-top: 10px;
+    margin: 0px 50px;
+  }
+
+  .mq-quiz-maincontainer .goodluck {
+    font-size: 24px;
+  }
+
+  .mq-quiz-maincontainer li {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .mq-quiz-li {
+    margin: 0px 20px;
+    padding-top: 10px;
+  }
+
+}
